@@ -1,0 +1,544 @@
+body {
+  background-color: #191919;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container {
+  width: 1440px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header-section {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 43px;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo-icon {
+  width: 160px;
+  height: 33px;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-link {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.59;
+  color: #fff;
+}
+
+.header-link.current {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.59;
+  color: #118da8;
+}
+
+.hero-section {
+  padding-left: 70px;
+  padding-right: 110px;
+}
+
+.hero-main-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.hero-img {
+  width: 650px;
+  height: 873px;
+}
+
+.hero-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 1.26;
+  letter-spacing: 0.05em;
+  color: #fff;
+  width: 526px;
+}
+
+.hero-text-line {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  position: relative;
+}
+
+.hero-text-line {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.hero-main-text {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.hero-line {
+  fill: #118da8;
+  position: absolute;
+  top: 82px;
+  left: 0;
+}
+
+.hero-list-container {
+  margin-top: 90px;
+}
+
+.hero-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.hero-list {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.hero-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.podcast-section {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.podcast-top-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 66px;
+}
+
+.podcast-main-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.24;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+
+.podcast-main-btn {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.59;
+  color: #fff;
+  width: 178px;
+  height: 51px;
+  border-radius: 6px;
+  background: #118da8;
+  border: none;
+  cursor: pointer;
+}
+
+.podcast-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.podcast-item {
+  border-radius: 32px;
+  width: 1300px;
+  height: 545px;
+  background: #000;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  align-items: center;
+  gap: 53px;
+}
+
+.podcast-img {
+  width: 389px;
+  height: 465px;
+}
+
+.podcast-text-kateg {
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+  border-radius: 6px;
+  width: 73px;
+  height: 27px;
+  background: #191919;
+}
+
+.podcast-text-kateg-two {
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+  border-radius: 6px;
+  width: 136px;
+  height: 27px;
+  background: #191919;
+}
+
+.podcast-text-kategoria {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.podcast-title-episod {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.59;
+  color: #118da8;
+  margin-bottom: 18px;
+}
+
+.podcast-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+  color: #fff;
+  width: 701px;
+  margin-bottom: 28px;
+}
+
+.podcast-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 18px;
+}
+
+.podcast-btn {
+  border-radius: 6px;
+  width: 208px;
+  height: 51px;
+  background: #118da8;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.person-section {
+  padding: 100px 70px;
+}
+
+.percon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 201px;
+}
+
+.person-top {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.person-border {
+  border-radius: 400px;
+  width: 100px;
+  height: 100px;
+  background: #118da8;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.person-arrow {
+  fill: #fff;
+  margin: 0 auto;
+}
+
+.person-text-ball {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #118da8;
+}
+
+.person-main-title {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 1.22;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-bottom: 28px;
+}
+
+.person-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 33px;
+}
+
+.person-img {
+  width: 650px;
+  height: 743px;
+}
+
+.person-bottom {
+  border-radius: 32px;
+  width: 1300px;
+  height: 387px;
+  background: #000;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 227px;
+  position: relative;
+}
+
+.person-text-news {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #118da8;
+}
+
+.person-title-news {
+  width: 431px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.person-input {
+  border: 1px solid #191919;
+  border-radius: 6px;
+  width: 522px;
+  height: 82px;
+  background: #191919;
+  margin-bottom: 20px;
+  padding-left: 19px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.person-button {
+  border-radius: 6px;
+  width: 87px;
+  height: 48px;
+  background: #118da8;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.92;
+  color: rgba(255, 255, 255, 0.7);
+  border: none;
+  cursor: pointer;
+}
+
+.person-vector {
+  width: 147px;
+  height: 91px;
+  fill: #118da8;
+  position: absolute;
+  top: 323px;
+  left: -32px;
+}
+
+.feedback-secion {
+  padding: 100px 70px;
+}
+
+.feedback-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.feedback-item {
+  border-radius: 32px;
+  width: 423px;
+  height: 321px;
+  background: #000;
+  padding-top: 54px;
+  padding-left: 50px;
+  padding-right: 57px;
+}
+
+.feedback-stars {
+  margin-bottom: 21px;
+}
+
+.feedback-text {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.2;
+  color: #fff;
+  margin-bottom: 19px;
+}
+
+.feedback-name {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-section {
+  padding: 100px 70px;
+}
+
+.footer-all {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-container-logo {
+  margin-right: 240px;
+}
+
+.footer-logo-icon {
+  width: 224px;
+  height: 46px;
+  margin-bottom: 20px;
+}
+
+.footer-media-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-icon-media {
+  fill: transparent;
+  stroke: #fff;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 16px;
+}
+
+.footer-list-one {
+  width: 179px;
+}
+
+.footer-item {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.59;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.footer-music-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 17px;
+}
